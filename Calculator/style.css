@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@1,9..144&family=Poppins:wght@200&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.box {
+    position: relative;
+    width: 320px;
+    height: 440px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #00ecff;
+    margin: 6% auto;
+}
+.button {
+    position: relative;
+    top: 22px;
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+
+.row {
+    margin: 3px 0;
+}
+
+.row input {
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 0;
+    background: transparent;
+    border: 1px solid rgb(10, 1, 1);
+    border-radius: 5px;
+    color: white;
+}
+.text-center{
+    position: relative;;
+    top: 10px;
+    text-align: center;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+} 
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
